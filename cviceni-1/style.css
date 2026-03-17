@@ -13,3 +13,14 @@ body {
 - neřeš odsazení textu a zarovnání textu/ikonek,
   jen si vyzkoušej, jak přidat ikonku před každou položku seznamu
 */
+
+li::before {
+  content: "🍉";
+  display: inline-block;
+  padding-right: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
